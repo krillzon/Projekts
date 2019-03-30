@@ -1,0 +1,123 @@
+/* hela body */
+body{
+background-color: black;
+font: italic 200% fantasy;
+background-image: url(weather.jpg);
+}
+
+/* Livevalues uppe till vänster*/
+
+.livevalues {
+    text-align:left;
+    
+}
+.box{
+    width:50%;
+    float:left; 
+}
+.menu{
+    width:50%;
+    float:right; 
+}
+
+/* STICKY TIME */
+/* gör så att när du scrollar ner så fastnar fortfarande tiden på skärmen uppe till vänster */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* en klass för infon nere till vänster */
+.Info {
+    text-align: left;
+}
+
+/* En klass för den vanliga knappen som ställs i mitten*/ 
+.button {
+  text-align: center;
+}
+/* En klass för den flexiba knappen som jag ändrar på om jag vill ha en knapp någon annan stans */ 
+
+.buttonMid {
+margin-left: 700px;
+margin-top: -45px;
+    
+}
+
+/* klass för att centrera objekt */
+.center {
+  margin: auto;
+}
+
+
+/* Refresh/Update knappen*/
+.Refresh {
+  padding: 8px;
+  border: none;
+  margin-right: 1500px;
+  margin-top: -45px;
+  font-size: 13px;
+  position: relative;
+  text-align: center;
+}
+
+/* text klass bara */
+.text1 {
+    text-align: center;
+   
+    color: white;
+    margin: 20px;}
+
+    a{font-style: italic;color: floralwhite;} a:hover{color: lightblue;}
+    
+    iframe{position ="center";}
+    
+    button{font-size: 20px;}
+    
+    /* table klassen där jag justerar tabellen */
+table, th, td {
+  color: white;
+  border: 2px solid orange;
+}
+    
+
+
+/* TAB BAR */
+/* TAB BAR */
+/* TAB BAR */
+
+/* klass för tab baren "timmies och martins values" */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-image: url(weather.jpg);
+    
+    /*f1f1f1;*/
+}
+
+/* styla knapparna i tabben */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-left: 500px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* tab knapp styling */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* stya tab contenten */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
